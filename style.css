@@ -1,0 +1,723 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,h3,h4,p{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+li{
+    display: inline-block ;
+}
+
+
+header{
+    height: 1078px;
+    background-image: url('images/header.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    color: white;
+}
+
+.nav-header{
+    width: 1869px;
+    margin: auto;
+    overflow: hidden;
+}
+
+#top-nav {
+    float: left;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 58px 0 0 0px;
+}
+
+#top-nav li{
+    margin: 30px;
+}
+
+#top-nav li:first-child{
+    border-bottom: 2px solid #ececec;
+}
+
+#nav-icon {
+    float: 100%;
+    margin: 88px 24px 0 0;
+}
+
+#header-title{
+    position: absolute;
+    top: 314px;
+    left: 845px;
+    text-align: center;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    color: #000000;
+    
+}
+
+.button{
+    margin-top: 860px;
+    text-align: center;
+}
+
+/* ----------------------------------------------------------------------- */
+/* 전개 왼쪽 카드----------------------------------------------------------*/
+/* ----------------------------------------------------------------------- */
+.feed-card {
+    float: left;
+    overflow: hidden;
+    margin-top: 80px;
+}
+
+.content{
+    float: left;
+    text-align: left;
+    margin: 0 175px 0 454px;
+}
+
+.content-year{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+    font-size:15px;
+    color: #404040;
+    margin-top: 36px;
+}
+
+.content-name{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #000000;
+    margin-top: 13px;
+}
+
+.content-info{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    color: #A9ABAB;
+    margin-top: 5px;
+    line-height: 20px;
+}
+
+.feed-card-right {
+    float: right;
+    overflow: hidden;
+    margin: 80px 500px 0 0 ;
+}
+
+.content-right{
+    float: left;
+    text-align: left;
+    margin: 0 175px 0 454px;
+}
+
+.content-year-right{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+    font-size:15px;
+    color: #404040;
+    margin-top: 36px;
+}
+
+.content-name-right{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #000000;
+    margin-top: 13px;
+}
+
+.content-info-right{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    color: #A9ABAB;
+    margin-top: 5px;
+}
+
+/* --------------------------------------------------------------------- */
+/* 전개2---------------------------------------------------------------- */
+/* --------------------------------------------------------------------- */
+
+
+
+#choose{
+    overflow: hidden;
+    position: absolute;
+    top: 3700px;
+    left: 501px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+    color: #000000;
+}
+
+/* 왜인지 모르겠으나 코드가 이상하게 실행됨...
+(계속 시도해보려 했으나 완성을 위해 이미지로 대체) */
+/* #Premium{
+    position: absolute;
+    top: 4000px;
+    left: 410px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    text-align: left;
+    color: #000000;
+
+}
+
+main {
+    width: 1083px;
+    margin: auto;
+    margin: 550px 0 0 410px;
+    border: 2px dashed orangered;
+    overflow: hidden;
+}
+
+.card:first-child{
+    margin-right: 10px;
+}
+
+.card{
+    width:127px;
+    overflow: hidden;
+    border: 2px dashed darkviolet;
+}
+
+.card-name{
+    float: left;
+    color: #000000;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+} */
+
+#cards{
+    position: absolute;
+    margin: 400px 0 0 210px;
+}
+
+
+/* <!-- -------------------------------------------------------------- -->
+<!-- 위기---------------------------------------------------------- -->
+<!-- --------------------------------------------------------------- --> */
+
+#mx-sentence1{
+
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    margin:200px 50px 50px 0;
+}
+
+#boost{
+    position: absolute;
+    transform: translate(-23%,0%);
+}
+
+#mx-sentence2{
+
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#mx1{
+    position: absolute;
+    margin: 162px 410px 0 410px;
+}
+
+.xm {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 560px;
+}
+
+.xm li{
+    margin-right: 470px;
+}
+
+.xm li:last-child{
+    margin-right: 0;
+}
+
+.xm-info {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 20px;
+    line-height: 30px;
+}
+
+.xm-info li{
+    margin-right: 450px;
+}
+
+.xm-info li:last-child{
+    margin-right: 0;
+}
+
+/* <!-- ------------------------------------------------------------------- -->
+<!-- 절정--------------------------------------------------------------- -->
+<!-- ------------------------------------------------------------------- --> */
+
+#x1{
+    margin-top: 161px;
+}
+
+#x1-icon{
+    margin-top: 82px;
+    text-align: center;
+}
+
+#x1-icon-info{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 85px;
+    line-height: 40px;
+
+}
+
+#x1-img{
+    margin-top: 57px;
+    text-align: center;
+}
+
+#m1{
+    margin-top: 57px;
+    text-align: center;
+}
+
+#m1-icon{
+    margin-top: 82px;
+    text-align: center;
+}
+
+#m1-icon-info{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 85px;
+    line-height: 70px;
+}
+
+#m-point{
+    margin-top: 150px;
+    text-align: center;
+
+}
+
+#mpoint-info1{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 210px;
+}
+
+#mpoint-info2{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 27px;
+    color: #1D6FB6;
+}
+
+#mpoint-icon{
+    margin-top: 54px;
+    text-align: center;
+}
+
+#mpoint-info3{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 40px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#mpoint-info4{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 105px;
+}
+
+#freeicon{
+    text-align: center;
+    margin-top: 54px;
+}
+
+#main-text1 {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    margin: 400px 0 0 442px;
+    color: #000
+}
+
+
+#main-image{
+    margin-top: -300px;
+}
+
+/* <!-- ------------------------------------------------------------ -->
+<!-- 카드움직 위기----------------------------------------------------- -->
+<!-- ------------------------------------------------------------ --> */
+
+
+#main-text2 {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+    margin: -20px 0 130px 0;
+    color: #000
+}
+.cards-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    margin: 2.5rem;
+    perspective: 1000px;
+}
+.card-container{
+     display: grid;
+     grid-template-columns: 1fr;
+     justify-content: center;
+
+     transition: all 1s ease;
+
+     transform-style:preserve-3d;
+ }
+
+
+.card-front{
+     grid-area: 1/1;
+
+ }
+
+.card-back{
+    grid-area: 1/1; 
+}
+
+.card:hover .card-container{
+    transform: rotateY(180deg);
+}
+
+
+/* <!-- -------------------------------------------------------------- -->
+<!-- 절정---------------------------------------------------------- -->
+<!-- -------------------------------------------------------------- --> */
+
+
+#point-background{
+    width: 1920px;
+    height: 4795px;
+    margin-top: 200px;
+    background-color: #FCFCFC;
+    text-align: center;
+}
+
+
+
+#point-text1{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 500;
+    font-size: 35px;
+    text-align: left;
+    margin: -4300px 0 0 564px;
+    color: #0B53B9
+}
+
+#point-text2{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: left;
+    margin: 60px 0 0 564px;
+    line-height: 40px;
+    color: #000000
+}
+
+#point-icon{
+    text-align: center;
+    margin-top: 120px;
+}
+
+#point-text3{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    text-align: left;
+    margin: 186px 0 0 385px;
+    color: #0B53B9
+}
+
+#point1{
+    margin: 35px 0 0 508px;
+}
+
+#point2{
+    margin: 35px 0 0 380px;
+}
+
+#point-text4{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    text-align: left;
+    margin: 186px 0 0 385px;
+    color: #0B53B9
+}
+
+#point3{
+    margin: 35px 0 0 508px;
+}
+
+
+/* <!-- --------------------------------------------------------------- -->
+<!-- 결말------------------------------------------------------------ -->
+<!-- ----------------------------------------------------------------- --> */
+
+/* .cards{
+    width: 15rem;
+    padding-left: 5rem;
+
+} */
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+    perspective: 1500px;
+}
+
+
+.cards-spinner{
+    animation: spinner 12s linear infinite;
+
+    transform-style: preserve-3d;
+
+    display: grid;
+}
+@keyframes spinner{
+    from{
+        transform: rotateY(0);
+    }
+    to{
+        transform: rotateY(360deg);
+    }
+}
+
+
+.cards-card-1{
+    transform: rotateY(0) translateX(160px);
+    grid-area: 1/1;
+}
+
+.cards-card-2{
+    transform: rotateY(-30deg) translateX(160px);
+    grid-area: 1/1;
+}
+
+.cards-card-3{
+    transform: rotateY(-60deg) translateX(160px);
+    grid-area: 1/1;
+}
+
+.cards-card-4{
+    transform: rotateY(-90deg) translateX(160px);
+    grid-area: 1/1;
+}
+
+.cards-card-5{
+    transform: rotateY(-120deg) translateX(160px);
+    grid-area: 1/1;
+}
+
+.cards-card-6{
+    transform: rotateY(-150deg) translateX(160px);
+    grid-area: 1/1;
+}
+
+.cards-card-7{
+    transform: rotateY(-180deg) translateX(160px);
+    grid-area: 1/1;
+}
+
+.cards-card-8{
+    transform: rotateY(-210deg) translateX(160px);
+    grid-area: 1/1;
+}
+
+.cards-card-9{
+    transform: rotateY(-240deg) translateX(160px);
+    grid-area: 1/1;
+}
+
+.cards-card-10{
+    transform: rotateY(-270deg) translateX(160px);
+    grid-area: 1/1;
+}
+
+.cards-card-11{
+    transform: rotateY(-300deg) translateX(160px);
+    grid-area: 1/1;
+}
+
+.cards-card-12{
+    transform: rotateY(-330deg) translateX(160px);
+    grid-area: 1/1;
+}
+
+#card-rotate-text{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+    margin: -200px 0 0 695px;
+
+    white-space: nowrap;
+    color:transparent;
+    position: absolute;
+}
+
+#card-rotate-text::before{
+    content:"당신의 아이덴티티가 되기위한 현대카드";
+    position: absolute;
+    text-align: center;
+    color:#000000;
+    overflow: hidden;
+    border-right: 3px solid white;
+
+    animation: typing 6s steps(66) infinite
+}
+
+@keyframes typing{
+    0%{
+        width: 0%;
+    }
+
+    50%{
+        width: 100%;
+    }
+
+    /* 100%{
+        width: 0%;
+    } */
+}
+
+footer{
+    width: 1440px;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+.copyright{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    float: left;
+}
+
+.name{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    float: right;
+    text-align: right;
+    margin: 0 0 50px 0 ;
+}
+
+@media screen and (min-width:540px){
+    header{
+        background-position: center;
+        background-size: cover;
+    }
+
+    #top-nav{
+        position: absolute;
+    }
+
+    #nav-icon{
+        position: absolute;
+        top:30px;
+        right: 10px;
+        margin-top: 60px;
+    }
+
+    #header-title{
+        position: absolute;
+    }
+
+
+
+    /* 실행 오류로 인해 주석처리해놓았습니다...ㅜㅜ */
+
+    /* .feed{
+        width: 90%;
+        margin: auto;
+        margin-bottom: 72px;
+    }
+
+    .content{
+        clear: both !important;
+        margin: 20px auto;
+    }
+
+    .feed-card{
+        width: 100%;
+        height: fit-content;
+    } */
+
+    /* footer{
+        width: 100%;
+        margin-top: 80px;
+        position: absolute;
+    }
+
+    .copyright{
+        text-align: justify;
+        padding: 0 13px;
+        margin-bottom: 30px;
+    } */
+}
